@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Glass Container */
+.container {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 600px;
+  color: white;
+}
+
+/* Titles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ffffffee;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.primary {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.danger {
+  background-color: #e94e77;
+}
+
+.success {
+  background-color: #2ecc71;
+}
+
+.warning {
+  background-color: #f39c12;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Status Text */
+.status {
+  text-align: center;
+  margin: 10px 0;
+  font-style: italic;
+  color: #ffffffcc;
+}
+
+/* Text Area */
+textarea {
+  width: 100%;
+  height: 120px;
+  border: none;
+  resize: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #ffffff20;
+  color: white;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+/* Actions */
+.actions {
+  display: flex;                                                                                       
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+/* Notes List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #ffffff22;
+  padding: 12px 18px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+}
+
+/* Delete Button for Notes */
+li button {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #a3001e;
+}
